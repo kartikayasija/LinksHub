@@ -25,7 +25,7 @@ const CardsList: FC<{ cards: IData[] }> = (props) => {
   return (
     <>
       <ul
-        className={`flex w-full w-full flex-wrap content-start gap-4 md:flex-row`}
+        className={`flex w-full w-full flex-wrap content-start gap-10 md:flex-row`}
       >
         {cards.map((data: IData) => (
           <CardsListItem
